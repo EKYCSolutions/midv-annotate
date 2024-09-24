@@ -12,7 +12,7 @@ from sam2.sam2_image_predictor import SAM2ImagePredictor
 from utils import determine_reference_axis_from_polygon, calculate_angle_between_two_line_segments
 #
 parser = argparse.ArgumentParser(
-    description="Using Facebook's SAM2 model to add mask, bbox, rotation angel")
+    description="Using Facebook's SAM2 model to add mask, bbox, rotation angle")
 parser.add_argument('data_dir', type=str,
                     help='Path to a directory containing all zip files downloaded from MIDV500/MIDV2019')
 parser.add_argument('--labelmaps_file', type=str,
